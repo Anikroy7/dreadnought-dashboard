@@ -16,11 +16,11 @@ function App() {
         <Route path='/' element={<Dashboard>
         </Dashboard>}>
           <Route index element={<Main></Main>}></Route>
-          <Route path='users' element={<Users></Users>}></Route>
-          <Route path='payment' element={<Payment></Payment>}></Route>
-          <Route path='learning' element={<Learnings></Learnings>}></Route>
-          <Route path='faqs' element={<FAQ></FAQ>}></Route>
-          <Route path='settings' element={<Settings></Settings>}></Route>
+          <Route path='users' element={<Main></Main>}></Route>
+          <Route path='payment' element={<Main></Main>}></Route>
+          <Route path='learning' element={<Main></Main>}></Route>
+          <Route path='faqs' element={<Main></Main>}></Route>
+          <Route path='settings' element={<Main></Main>}></Route>
         </Route>
       </Routes>
     </div>
