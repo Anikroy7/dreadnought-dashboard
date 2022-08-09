@@ -31,9 +31,9 @@ const Dashboard = () => {
                         isActive ? 'bg-primary ' : ''
                     }><FontAwesomeIcon icon={faGear}></FontAwesomeIcon> Settings</NavLink></li>
 
-                    <li className='mt-28  text-white font-semibold rounded-2xl'> <NavLink to='/logout' className={({ isActive }) =>
+                    <li className='mt-28  text-white font-semibold rounded-2xl'> <NavLink to='/' className={({ isActive }) =>
                         isActive ? 'bg-primary ' : ''
-                    }><FontAwesomeIcon icon={faSignOut}></FontAwesomeIcon>  Logout</NavLink></li>
+                    }><FontAwesomeIcon icon={faSignOut}></FontAwesomeIcon>Logout</NavLink></li>
                 </ul>
             </div>
         </div >

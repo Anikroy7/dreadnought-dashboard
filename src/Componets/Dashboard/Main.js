@@ -1,5 +1,6 @@
 import React from 'react';
 import Cards from '../Cards/Cards';
+import OrdersTable from '../OrdersTable/OrdersTable';
 import Header from './Header';
 import Users from './Users';
 
@@ -8,6 +9,7 @@ const Main = () => {
         <div>
             <Header></Header>
             <Cards></Cards>
+            <OrdersTable></OrdersTable>
         </div>
     );
 };

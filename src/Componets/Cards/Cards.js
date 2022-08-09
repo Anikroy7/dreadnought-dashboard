@@ -29,7 +29,7 @@ const Cards = () => {
 
     return (
 
-        <section className=' px-8 py-6 text-white grid lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 gap-2'>
+        <section className='px-4 text-white grid lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 gap-2'>
             {
                 cards.map((card, i) => <CardsDetails
                     card={card}
