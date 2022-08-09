@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div class="navbar text-white lg:px-10">
 
-            <h3 class="normal-case text-2xl font-semibold">Welcome To Dashboard.</h3>
+            <h3 class="normal-case text-2xl text-indigo-50 font-bold">Welcome To Dashboard</h3>
 
 
 

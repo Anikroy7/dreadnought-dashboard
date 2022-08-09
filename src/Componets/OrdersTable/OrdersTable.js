@@ -16,15 +16,15 @@ const OrdersTable = () => {
     ];
 
     return (
-        <section className='flex flex-initial items-center px-4 mt-10'>
-            <div class="overflow-x-auto">
+        <section className='flex flex-wrap flex-initial items-center px-4 mt-10'>
+            <div>
                 <h3 className='text-xl font-bold mb-7 text-indigo-50'>
                     Recent Orders
                 </h3>
-                <table class="table">
+                <table class="table ">
                     <thead>
                         <tr>
-                            <th className=' bg-slate-500 text-pink-50'>Product</th>
+                            <th className=' bg-slate-500 text-pink-50 '>Product</th>
                             <th className=' bg-slate-500 text-pink-50'>Tracing Id</th>
                             <th className=' bg-slate-500 text-pink-50'>Date</th>
                             <th className=' bg-slate-500 text-pink-50'>Status</th>
